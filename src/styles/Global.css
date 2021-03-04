@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-1: #f2f3f5;
+  --background: #292929;
+  --title: #2e384d;
+  --purple-dark: #5f3473;
+  --purple-light: #6800dc;
+}
+
+body {
+  background: var(--background);
+}
+
+body, input, textarea, button {
+  font: 400 1rem "Inter", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}

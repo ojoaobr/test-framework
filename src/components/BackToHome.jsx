@@ -8,7 +8,7 @@ export function BackToHome() {
   return (
     <div className={styles.container}>
       <button className={styles.Button} onClick={() => history.push(`/`)} >
-        <img src="./arrow.svg" alt="Voltar" />
+        <img src="./assets/arrow.svg" alt="Voltar" />
       </button>
     </div>
   )

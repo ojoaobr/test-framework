@@ -4,7 +4,7 @@ import { Table } from '../components/Table';
 
 import getData from '../services/api';
 
-import styles from '../styles/pages/Posts.module.css';
+import styles from '../styles/pages/Pages.module.css';
 
 export function ToDos() {
 
